@@ -1,0 +1,68 @@
+{
+  "MAIN":
+  [
+    "This is the main part of this task",
+    "Everything will be very similar to the task you practiced earlier.",
+    "You will see moving dots both in the central circle and in periphery, to the left and to the right.",
+    "Your task is to report the motion direction of the dots in the central circle by adjusting the response dial.",
+    "",
+    "The main difference will be that the motion will be more difficult to discern.",
+    "",
+    "When you are ready, press SPACE key to start."
+  ],
+  "DEMO":
+  {
+    "trainResponse":
+    [
+      "In this part, you will learn how to respond in our task.",
+      "You will see a big, unfilled circle at the screen centre. At its edge, you will see a small, filled circle.",
+      "You can think of the big circle as a clock face, and of the small circle as a dial on the clock.",
+      "As you move the mouse, the small, filled circle will rotate around the big, unfilled circle.",
+      "When you press the left mouse button, you will hear a sound indicating that your response was recorded.",
+      "Take some time to practice rotating the small circle and pressing the button.",
+      "When you feel confident that you have understood how to respond, press SPACE key to continue.",
+      "When you are ready, press SPACE key to start."
+    ],
+    "trainMotionDirection":
+    [
+      "In this part, you will learn how the stimuli in our experiment look like.",
+      "You will again see the response circle at the screen centre. Now, however, you will also see many dots around the response circle.",
+      "Initially, the dots will move randomly. At some point, the dots will start moving in a particular direction.",
+      "Your task is to report the motion direction of the moving dots.",
+      "To respond, rotate the response dial so that it points in the direction of motion and press the mouse button.",
+      "When you have responded, a green circle will appear, indicating the correct response. Please, try to be as accurate as you can.",
+      "When you feel confident that you have understood how the stimuli look like, press SPACE key to continue.",
+      "When you are ready, press SPACE key to start."
+    ],
+    "trainTaskUnspeeded":
+    [
+      "In this part, you will learn how to ignore irrelevant stimuli in our experiment.",
+      "You will, again, see moving dots in the central circle.",
+      "Your task is, again, to report the motion direction of the dots in the central circle.",
+      "Now, however, you will also see moving dots to the left and to the right of the central circle.",
+      "The peripheral dots are not important for the task. You might as well ignore them.",
+      "When you feel confident that you have learnt to focus to the central circle, press SPACE key to continue.",
+      "When you are ready, press SPACE key to start."
+    ],
+    "trainTaskSpeeded":
+    [
+      "In this part, you will learn to respond with a certain speed.",
+      "All the details are the same as before, except that you need respond sufficiently fast.",
+      "If you are too slow to respond, there will be a high-pitched sound informing you about that.",
+      "The response deadline is set so that you should have plenty of time to respond accurately.",
+      "When you feel confident that you have learnt to respond sufficiently fast, press SPACE key to continue.",
+      "When you are ready, press SPACE key to start."
+    ]
+  },
+  "STAIR":
+  [
+  "In this part, we will adjust the task difficulty.",
+  "On some trials, the motion of the dots in the central circle will be very easy to discern.",
+  "On other trials, the motion will be very difficult.",
+  "Please try to respond as accurately as you can.",
+  "It is completely normal if, on some trials, you do not see the motion at all.",
+  "On such trials, please guess the motion direction, even if you make a large error.",
+  "This session will last until we have found the level of difficulty that we are aiming for.",
+  "When you are ready, press SPACE to start."
+  ]
+}

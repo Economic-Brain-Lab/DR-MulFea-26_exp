@@ -1,0 +1,179 @@
+{
+  "demo":
+  {
+    "dotCoherenceRing":
+    {
+      "value": 0.001,
+      "description": "Coherence of dots in the peripheral patches."
+    }
+
+  },
+  "stair":
+  {
+    "dotCoherenceRing":
+    {
+      "value": 0.001,
+      "description": "Coherence of dots in the peripheral patches."
+    }
+  },
+  "main":
+  {
+    "nTrialsPerRun":
+    {
+      "value": 19,
+      "description": "How many trials should be run before the forced break."
+    },
+    "nRunsPerBlock":
+    {
+      "value": 2,
+      "description": "How many runs should be run befor the block break."
+    },
+    "nBlocks":
+    {
+      "value": 5,
+      "description": "The maximal number of blocks to be run."
+    },
+    "dotCoherenceRing":
+    {
+      "value": 10,
+      "description": "Coherence of dots in the peripheral patches."
+    }
+  },
+  "stim":
+  {
+    "circleRadius":
+    {
+      "value": 4,
+      "description": "The radius of the central dot patch, in degrees of visual angle."
+    },
+    "circleMaskRadius":
+    {
+      "value": 0.33,
+      "description": "The proportion of the circle area that will be masked and used for the response display."
+    },
+    "circleMaskSpan":
+    {
+      "value": 2,
+      "description": "The span of the mask in pi radians (0-2), 0 = no mask, 2 = full circle."
+    },
+    "circleNDots":
+    {
+      "value": 300,
+      "description": "The number of dots presented in the circle"
+    },
+    "ringRadius":
+    {
+      "value": 14,
+      "description": "The radius of the outer rings, in degrees of visual angle."
+    },
+    "ringMaskRadius":
+    {
+      "value": 0.43,
+      "description": "The proportion of the ring area that will be masked and used for the central circle display."
+    },
+    "ringMaskSpan":
+    {
+      "value": 0.85,
+      "description": "The span of the mask in pi radians (0-2), 0 = no mask, 2 =full circle."
+    },
+    "dotSize":
+    {
+      "value": 0.1,
+      "description": "The diameter of individual dots, in degrees of visual angle."
+    },
+    "dotSpeed":
+    {
+      "value": 3,
+      "description": "Dot speed in degrees of visual angle per second"
+    }
+    ,
+    "dotCoherenceCircle":
+    {
+      "value": 10,
+      "description": "The coherence of dot motion, expressed as kappa parameter of the von Mises distribution."
+    },
+    "nMotionDirections":
+    {
+      "value": 12,
+      "description": "The number of possible motion directions."
+    },
+    "soundPitch":
+    {
+      "value": "C",
+      "description": "The note used for the sound stimuli."
+    },
+    "soundOctaveRespOn":
+    {
+      "value": 5,
+      "description": "The octave of the sound after the response."
+    },
+    "soundOctaveRespOff":
+    {
+      "value": 6,
+      "description": "The octave of the sound after the response deadline."
+    },
+    "soundDurationSec":
+    {
+      "value": 0.1,
+      "description": "The sound duration, in seconds"
+    },
+    "textHeight":
+    {
+      "value": 0.75,
+      "description": "The height of letters, in degrees of visual angle."
+    },
+    "textWidth":
+    {
+      "value": 35,
+      "description": "The width of one line of text, after which the new line starts."
+    },
+    "textPosition":
+    {
+      "value": [0, 5],
+      "description": "The x and y coordinates where the text should be presented, in degrees of visual angle."
+    },
+    "centralSignalDuration":
+    {
+      "value": 1.0,
+      "description": [
+        "The period during which coherent motion is presented in the central patch, in seconds",
+        "This can be increased to 2.0 s, but then the response deadline should be decreased for 1 s.",
+        "That way, the trial duration will remain 6 s."
+      ]
+    },
+    "peripheralSignalDuration":
+    {
+      "value": 1.0,
+      "description": "The period during which the motion signal is presented in peripheral patches, in seconds."
+    },
+    "responseDeadline":
+    {
+      "value": 4.0,
+      "description":
+      [
+        "The time interval after signal offset during which participants should respond, in seconds.",
+        "The total time to respond is actually signalDuration + responseDeadline.",
+        "The centralSignalDuration can be increased from 1 s to 2 s, but then subtract 1 s from responseDeadline.",
+        "That way, the trial duration will remain 6 s."
+      ]
+    },
+    "feedbackDuration":
+    {
+      "value": 0.5,
+      "description": "The period during which response feedback is presented, in seconds."
+    },
+    "breakDuration":
+    {
+      "value": 12,
+      "description": "The duration of the forced break, in seconds."
+    }
+  },
+  "hardware":
+  {
+    "padHeight":
+    {
+      "value": 8,
+      "description": "The height (y-axis) of the response pad, in cm "
+    }
+  }
+}

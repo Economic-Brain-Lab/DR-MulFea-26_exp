@@ -1,0 +1,20 @@
+# Local Python/Conda environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Operating system and editor metadata
+.DS_Store
+.vscode/
+
+# Generated experiment data and logs
+BHV/*
+!BHV/.gitkeep
+EEG/*
+!EEG/.gitkeep
+EYE/*
+!EYE/.gitkeep
+LOG/*
+!LOG/.gitkeep
