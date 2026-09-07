@@ -24,7 +24,7 @@ try:
     USB2LPT = False
     if ftd.listDevices():
         USB2LPT = True
-except ImportError:
+except (ImportError, OSError):
     USB2LPT = False
 import numpy as np
 import time
